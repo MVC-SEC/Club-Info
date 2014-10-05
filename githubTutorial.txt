@@ -1,0 +1,14 @@
+1: Go to github repository page.
+2: "Fork", in upper right-hand corner.
+3: Select your own account.
+4: "Clone in Desktop" in lower-right hand corner.
+5: Download and install Github for windows.
+6: In client app, clisk "+" in upper-left hand corner.
+7: Select MVC-SEC -> Website and then "clone".
+8: Select folder to create repo in. Htdocs in Xampp recommended(for quick testing).
+9: Open repo folder in windows explorer. Create/Edit documents.
+10: In Github client, add comments, etc., to "uncommited changes".
+11: "Commit", then, in the upper right-hand corner, "sync".
+12: On personal repo page, click "Pull Request".
+13. Follow prompts. Enter comments as needed.
+14: Superviser will review code and merge with master. 
