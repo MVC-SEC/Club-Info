@@ -1,3 +1,5 @@
+Getting Started:
+
 1: Go to github repository page.
 2: "Fork", in upper right-hand corner.
 3: Select your own account.
@@ -12,3 +14,28 @@
 12: On personal repo page, click "Pull Request".
 13. Follow prompts. Enter comments as needed.
 14: Superviser will review code and merge with master. 
+
+
+Updating Your Unmodified Fork
+
+1: On personal repo page, click "Pull Request".
+2: "No changes to show" should appear.
+3: Select "switch to another base" in middle of screen.
+5: You should now see all recent updates to the main repo.
+14: Comment pull request as "Updating personal fork".
+15. Submit pull request to update repo.
+
+Updating Your Modified Fork
+
+1: In Github client, select personal fork
+2: Under settings(in the top-right corner), select "open in git shell"
+3: Enter the following commands:
+  A: git fetch upstream
+  B: git checkout master
+  C: git rebase upstream/master
+  D: git push -f origin master
+4: If any conficts arise, resolve them in gui.
+  A: Only overwrite code if neccessary.
+  B: Retest personal fork.
+  C: Sync with remote fork.
+5: Send standard pull request when ready.
