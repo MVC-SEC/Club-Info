@@ -33,6 +33,14 @@ Updating Your Modified Fork
   A: git fetch upstream
   B: git checkout master
   C: git rebase upstream/master
+	a: conflicts will likely arise (else skip to D)
+	b: resolve conflicts
+	c: "git add [filepath\filename] resolved files (ignore [])
+	d: "git checkout -b temp (adds detached head to new branch)
+	e: "git checkout master"
+	f: "git merge temp" (conflicts will likely arise)
+	g: repeat c-f after resoliving conficts
+	h: "git commit -a -m 'comments'
   D: git push -f origin master
 4: If any conficts arise, resolve them in gui.
   A: Only overwrite code if neccessary.
